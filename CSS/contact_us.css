@@ -1,0 +1,132 @@
+* {
+    font-family: sans-serif;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    transition: 0.3s ease-in-out;
+}
+
+h1 {
+    font-size: 350%;
+    margin: 30px;
+    color: green;
+}
+
+:root {
+    --bg-color: #ffffff;
+    --text-color: #000000;
+}
+
+.dark-mode {
+    --bg-color: #1e1e1e;
+    --text-color: #ffffff;
+}
+
+
+button {
+    padding: 10px 20px;
+    margin: 20px;
+    cursor: pointer;
+    border: none;
+    background-color: var(--text-color);
+    color: var(--bg-color);
+    border-radius: 5px;
+    transition: 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    border: 2px solid var(--text-color);
+    /* საზღვრის დამატება hover-ზე */
+}
+
+#toggle-theme {
+    margin-left: 900px;
+    height: 60px;
+}
+
+#main {
+    display: flex;
+}
+
+a {
+    font-size: 30px;
+}
+
+a:link {
+    color: green;
+}
+
+a:visited {
+    color: green;
+}
+
+a:hover {
+    color: #ffffff;
+}
+
+a:hover {
+    color: #ffffff;
+    font-size: 45px;
+}
+
+
+
+div {
+    display: flex;
+    margin: 30px;
+}
+
+.link {
+    margin: 40px;
+    color: green;
+    font-size: 40px;
+}
+
+select {
+    height: 50px;
+    font-size: 30px;
+    color: green;
+    background-color: transparent;
+}
+
+#nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#search {
+    margin: 30px;
+    width: 200px;
+    height: 30px;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 30px;
+    margin: 100px;
+}
+
+h2 {
+    text-align: center;
+    color: green;
+    font-size: 200%;
+}
+
+h3 {
+    text-align: center;
+    color: green;
+    font-size: 200%;
+}
+
+.input {
+    font-size: 30px;
+}
