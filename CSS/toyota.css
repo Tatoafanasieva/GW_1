@@ -28,7 +28,6 @@ h1 {
 button {
     padding: 10px 20px;
     margin: 20px;
-    cursor: pointer;
     border: none;
     background-color: var(--text-color);
     color: var(--bg-color);
