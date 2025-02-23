@@ -1,10 +1,10 @@
 // ვპოულობთ ღილაკს, რომელსაც აქვს ID 'toggle-theme' და ვინახავთ ცვლადში
 const toggleBtn = document.getElementById('toggle-theme');
 
-// ვპოულობთ <select> ელემენტს (თუ გამოიყენება არჩევანისთვის)
+// ვპოულობთ <select> ელემენტს (თუ გამოიყენება არჩევნისთვის)
 const select = document.querySelector('select');
 
-// ღილაკზე დაჭერისას ვამატებთ ან ვშლით 'dark-mode' კლასს <body>-ზე
+// ღილაკზე დაჭერისას ვრთავთ ან ვთიშავთ 'dark-mode' კლასს <body>-ზე
 toggleBtn.addEventListener('click', () => {
     document.body.classList.toggle('dark-mode'); // თემის გადართვა
 
